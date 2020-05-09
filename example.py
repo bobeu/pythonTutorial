@@ -1,6 +1,4 @@
 from algosdk import algod
-
-
 # Setup HTTP client w/guest key provided by PureStake
 algod_address = "https://testnet-algorand.api.purestake."
 algod_token = "eVXi2wPlDE8uF15mkil5Z2"
