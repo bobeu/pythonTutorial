@@ -1,10 +1,11 @@
-from algosdk import algod
-# Setup HTTP client w/guest key provided by PureStake
-algod_address = "https://testnet-algorand.api.purestake."
-algod_token = "eVXi2wPlDE8uF15mkil5Z2"
-myProject_token = {"X-API-Key": algod_token}
+# from algosdk import algod
 
-algod_client = algod.AlgodClient(algod_token, algod_address, myProject_token)
+# # Setup HTTP client w/guest key provided by PureStake
+# algod_address = "https://testnet-algorand.api.purestake."
+# algod_token = "eVXi2wPlDE8uF15mkil5Z2...."
+# myProject_token = {"X-API-Key": algod_token}
+
+# algod_client = algod.AlgodClient(algod_token, algod_address, myProject_token)
 
 #To test the code, simply uncomment them by highlighting and do ctrl + / (back slash)
 
@@ -48,20 +49,11 @@ algod_client = algod.AlgodClient(algod_token, algod_address, myProject_token)
 # print(type(h))
 
 
-
-
-
-
-
-
 # x = int(input("Enter the first number"))
 # y = int(input("Enter the second number"))
 # add_number = x + y
 
 # print("The addition of the two numbers is: " + str(add_number))
-
-
-
 
 # This is how to comment in python using VSCode
 # This prints a line of text using both single and double quotes
@@ -78,10 +70,13 @@ algod_client = algod.AlgodClient(algod_token, algod_address, myProject_token)
 # print(z)
 # print(a)
 
-arbitrary_li = ["sausage", 10, "fish pie", True, "meat  pie", {"name": 'James', "age": 49,}]
-arbitrary_list = (["sausage", 10, "fish pie", True, "meat  pie", {"name": 'James', "age": 49,}], 10, {"email": "bob@gmail.com"}, ["country", "towm"])
-print(arbitrary_li)
-print(arbitrary_list)
+# arbitrary_li = ["sausage", 10, "fish pie", True, "meat  pie", {"name": 'James', "age": 49,}]
+
+# arbitrary_list = (["sausage", 10, "fish pie", True, "meat  pie", {"name": 'James', "age": 49,}], 10, {"email": "bob@gmail.com"}, ["country", "towm"])
+
+# print(arbitrary_li)
+# print(arbitrary_list)
+
 
 
 
