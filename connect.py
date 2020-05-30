@@ -4,7 +4,7 @@ from algosdk import algod
 class Connect():
     def __init__(self):
         self.algod_address = "https://testnet-algorand.api.purestake.io/ps1"# declaring the third party API
-        self.algod_token = "eVXi2wPlDE8u" # <-----shortened - my personal API token
+        self.algod_token = "eVXi2wPlDE8uF15m" # <-----shortened - my personal API token
         self.headers = {"X-API-Key": self.algod_token}
 
     def connectToNetwork(self):       
